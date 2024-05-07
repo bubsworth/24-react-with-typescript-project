@@ -67,6 +67,6 @@ function insertAtBeginning<T>(array: T[], value: T) {
 const demoArray = [1, 2, 3];
 
 const updatedArray = insertAtBeginning(demoArray, -1) // [-1, 1, 2, 3]
-const stringArray = insertAtBeginning(['a', 'b', 'c'], 'd')
+const stringArray = insertAtBeginning<string>(['a', 'b', 'c'], 'd');
 
 // updatedArray[0].split('');
