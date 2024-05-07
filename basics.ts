@@ -47,3 +47,12 @@ let course: string | number = 'React';
 
 course = 123;
 
+// Functions & types
+
+function add(a: number, b: number) {
+  return a + b;
+}
+
+function printOutput(value: any) {
+  console.log(value);
+}
